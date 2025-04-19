@@ -32,7 +32,7 @@
         class="sticky top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white px-4 py-2 border-b border-gray-200  sm:px-6 lg:px-16"
       >
         <div class="relative flex flex-grow basis-0 items-center">
-          <a aria-label="Home page" href="https://syntax.tailwindui.com/">
+          <a aria-label="Home page" href="{{ route('home') }}">
             <img
               class="h-10 w-auto lg:hidden"
               src="{{asset('images/logoSmall.png')}}"
@@ -50,7 +50,7 @@
           class="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow"
         >
           <a
-            href="#"
+            href="{{ route('joinus') }}"
             class="flex group gap-2 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-green-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 ring-1 ring-inset ring-green-500 uppercase"
           >
             <span class="whitespace-nowrap">Join Us</span>
